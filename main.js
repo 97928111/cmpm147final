@@ -8,6 +8,7 @@ let xoff = 0;
 
 
 //setup function
+//new
 function setup()
 {
   createCanvas(1800, 800);
