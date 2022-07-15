@@ -3,12 +3,11 @@ var points = [];
 var mult = 0.005;
 let symmetry = 10;
 let angle = 180 / symmetry;
-let clearButtton;
+let clearButton;
 let xoff = 0;
 
 
-//setup function
-//new
+//setup functionn
 function setup()
 {
   createCanvas(1800, 800);
@@ -18,8 +17,7 @@ function setup()
   
   colorPicker = createColorPicker('#ed225d');
   colorPicker.position(1800, 800);
-  clearButtton = createButton('clear');
-  
+  clearButton = createButton('clear');
   clearButton.mousePressed(clearCanvas);
   slider = createSlider(0.3, 32, 0, 0.1);
 
