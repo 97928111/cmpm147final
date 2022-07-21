@@ -5,13 +5,18 @@
 var Planet0 = [];
 var Planet1 = [];
 
+function preload()
+{
+  bgm = loadSound('assets/147final.mp3');
+}
+
 //setup function
 function setup(){
   createCanvas(windowWidth, windowHeight);
   background(50);
   angleMode(DEGREES);
   noiseDetail(1);
-
+  bgm.loop();
   noCursor();
   //background 
   //if we change the size of number, the shape will change
